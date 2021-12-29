@@ -1,0 +1,3 @@
+const Parser = {
+  getAst: path
+}
