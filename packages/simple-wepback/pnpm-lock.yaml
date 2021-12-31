@@ -3,11 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': ^7.16.5
   '@babel/parser': ^7.16.6
+  lodash: ^4.17.21
   webpack: ^5.65.0
   webpack-cli: ^4.9.1
 
 dependencies:
   '@babel/core': 7.16.5
+  lodash: 4.17.21
   webpack: 5.65.0_webpack-cli@4.9.1
   webpack-cli: 4.9.1_webpack@5.65.0
 
@@ -754,6 +756,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-locate: 4.1.0
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /merge-stream/2.0.0:
