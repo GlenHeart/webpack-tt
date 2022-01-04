@@ -1,2 +1,3 @@
-import { a } from 'a.js';
-a();
+import('./common.js').then((c) => {
+  console.log(c, 'b')
+})
